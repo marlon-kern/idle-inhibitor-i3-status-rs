@@ -27,3 +27,9 @@
 2. Make sure both scripts are executable
 3. Add the block to your i3-status-rs config
 4. Adjust the path to the executable in the i3-status-rs snippet
+
+## Result
+
+This is how the Inhibitor result looks like in my setup:
+
+![](https://github.com/marlon-kern/idle-inhibitor-i3-status-rs/i3-status-rs_inhibitor.gif)
