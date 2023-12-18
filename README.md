@@ -32,4 +32,4 @@
 
 This is how the Inhibitor result looks like in my setup:
 
-![](https://github.com/marlon-kern/idle-inhibitor-i3-status-rs/i3-status-rs_inhibitor.gif)
+![](https://github.com/marlon-kern/idle-inhibitor-i3-status-rs/blob/main/i3-status-rs_inhibitor.gif)
