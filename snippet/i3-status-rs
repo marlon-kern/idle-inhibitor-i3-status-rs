@@ -1,0 +1,9 @@
+[[block]]
+block = "custom"
+command = "$PATH_TO_REPOSITORY/idle-inhibitor-i3-status-rs/scripts/idle_status.sh"
+interval = 5
+json = true
+[[block.click]]
+button = "left"
+cmd = "$PATH_TO_REPOSITORY/idle-inhibitor-i3-status-rs/scripts/idle_inhibitor.sh"
+update = true

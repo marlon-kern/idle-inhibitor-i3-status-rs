@@ -1,0 +1,11 @@
+[Unit]
+Description=Autolockscreen for Sway
+BindsTo=sway-session.target
+
+[Service]
+Type=simple
+Environment="lock=swaylock"
+ExecStart=swayidle -w timeout 300 $lock timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' before-sleep $lock
+
+[Install]
+WantedBy=sway-session.target
